@@ -24,7 +24,7 @@ Project sẽ có một số thư mục như sau:
     * `recognizer_faces_video.py` - nhận diện khuôn mặt từ video webcam. Code này có thể edit lại một chút để nhận cả video từ file.
     * `encoding.pickle` - encodings được tạo ra từ `encode_faces.py` sẽ được lưu vào disk thông qua file này
 
-### Bước1. Tạo dataset 
+### Bước 1. Tạo dataset 
 Ở đây chúng ta sử dụng `build_dataset.py` để xây dựng dataset. Trong thư mục `dataset` có chứa các subdirctory cho từng người với tên (+ ID nếu cần), trong mỗi subdirectory lại chứa ảnh khuôn mặt của người đó.
 
 > **Chú ý:** Mỗi ảnh nên chỉ chứa duy nhất 1 khuôn mặt của người đó (nếu có các khuôn mặt của nhiều người, phần implementation bên dưới sẽ phức tạp hơn vì đôi khi phải xác định thêm ai trong bức ảnh)
